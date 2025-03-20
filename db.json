@@ -1,0 +1,18 @@
+{
+    "users": [
+      { "id": 1, "name": "Alice", "posts": [1, 2] },
+      { "id": 2, "name": "Bob", "posts": [3, 4, 5] },
+      { "id": 3, "name": "Charlie", "posts": [6] }
+    ],
+    "posts": [
+      { "id": 1, "content": "Hello World!", "comments": [1, 2] },
+      { "id": 2, "content": "React is great!", "comments": [3] },
+      { "id": 3, "content": "Learning APIs", "comments": [4, 5, 6] }
+    ],
+    "comments": [
+      { "id": 1, "postId": 1, "text": "Nice post!" },
+      { "id": 2, "postId": 1, "text": "Very helpful!" },
+      { "id": 3, "postId": 2, "text": "I agree!" }
+    ]
+  }
+  
